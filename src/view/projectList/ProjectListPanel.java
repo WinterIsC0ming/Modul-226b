@@ -16,7 +16,7 @@ import javax.swing.event.ListSelectionEvent;
  */
 public class ProjectListPanel extends JPanel {
 
-	private static final long serialVersionUID = 3867862451926256075L;
+	private static final long serialVersionUID = 1L;
 	private final JList<?> projectList;
 	public final ListModel<?> listModel;
 

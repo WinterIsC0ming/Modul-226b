@@ -90,7 +90,7 @@ public class Controller {
 	 * Und speichert diese in die txt Datei
 	 * @param e reagiert auf Klick des Buttons Save
 	 */
-	private void doSavetProjectPanel(ActionEvent e) {
+	public void doSavetProjectPanel(ActionEvent e) {
 		Project p = (Project) mainWindow.getProjectListPanel().getProjectList().getSelectedValue();
 		ProjectPanel pp = mainWindow.getProjectPanel();
 
